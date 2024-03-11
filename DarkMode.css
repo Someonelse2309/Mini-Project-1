@@ -1,0 +1,317 @@
+
+.primary{
+    color : #000000;
+    background-color:#BB86FC;
+}
+
+.primaryVariant{
+    background-color : #3700B3;
+    color: #000000;
+}
+
+.secondary{
+    background-color : #03DAC6;
+    color : #000000;
+}
+
+.error{
+    background-color: #CF6679;
+    color: #000000;
+}
+
+header {
+    width: 100%;
+    height: 630pt;
+    background: linear-gradient(#1212120A,#121212FF 93%), url(Gambar/Main\ Page\ Header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -600pt;
+    background-size: auto;
+}
+
+header h1{
+    background-color: #03DAC63F;
+    margin-top: -16pt;
+    margin-bottom: -16pt;
+    color: #000000;
+    text-align: right;
+    padding-right: 30pt;
+    padding-top: 15pt;
+    padding-bottom:10pt;
+    word-spacing: 15pt;
+}
+header a{
+    word-spacing: 0pt;
+    color: #000000;
+    text-decoration: underline;
+}
+
+header a.Pilihan:hover{
+    word-spacing: 0pt;
+    font-weight: 800;
+    background-color: #121212;
+    color: #FFFFFF;
+    padding-top: 1pt;
+    padding-bottom: 1pt;
+    padding-right: 5pt;
+    padding-left: 5pt;
+    border-radius: 4pt;
+}
+
+body{
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.LogoMainPageHeader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250pt;
+
+}
+
+.BackgroundItemTitleMain {
+    background-color: #121212;
+    border-radius: 13pt;
+    padding: 20px 20px;
+    padding-top: 3pt; 
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1%;
+    vertical-align: middle;
+}
+
+div.BackgroundItemTitleMain h1{
+    font-size: 50pt;
+    font-weight: 700;
+    letter-spacing: 10pt;
+}
+
+div.BackgroundItemTitleMain h2{
+    font-size: 17pt;
+    font-weight: 600;
+    margin-bottom: 10pt;
+}
+
+div.Jeda10pt{
+    margin-bottom: 10pt;
+}
+
+.BackgroundItemSearchMain {
+    background-color: #121212;
+    border-radius: 13pt;
+    padding: 8px 6px; 
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 10%;
+}
+
+#NamaKonser{
+    outline: none;
+    border-style: none;
+    color : #000000;
+    /* background-color:#BB86FC; */
+    width: 500pt;
+    height: 51pt;
+    border-radius: 5pt 0pt 0pt 5pt;
+    vertical-align: middle;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+#Tanggal{
+    outline: none;
+    border-style: none;
+    color : #000000;
+    /* background-color:#BB86FC; */
+    width: 300pt;
+    height: 52pt;
+    border-radius: 0pt 0pt 0pt 0pt;
+    vertical-align: middle;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+#Lokasi{
+    outline: none;
+    border-style: none;
+    color : #000000;
+    /* background-color:#BB86FC; */
+    width: 400pt;
+    height: 51pt;
+    border-radius: 0pt 0pt 0pt 0pt;
+    vertical-align: middle;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+
+::placeholder{
+    color: #272727;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+#IkonCariImage{
+    width: 34pt;
+    outline: none;
+    padding: 6pt;
+    background-color: #3700B3;
+    border-radius: 0pt 5pt 5pt 0pt;
+}
+
+.TabelKonser{
+    margin-top: 150pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    margin-bottom: 100pt;
+}
+
+.TitleTable{
+    font-size: 30pt;
+}
+
+.GambarKonser{
+    width: 400pt;
+    height: auto;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    border-radius: 10pt;
+}
+
+.CaptionKonser{
+    margin-top: -10pt;
+    text-align: center;
+    vertical-align: top;
+}
+
+div.DeskripsiKonser{
+    margin-left: 10pt;
+    margin-right: 10pt;
+    text-wrap: balance;
+    overflow: auto;
+    table-layout: fixed;
+
+}
+div.DeskripsiKonser h1{
+    margin-top: -5pt;
+    font-size: 30pt;
+}
+
+div.DeskripsiKonser h2{
+    margin-top: -25pt;
+    font-size: 15pt;
+}
+
+div.DeskripsiKonser h3{
+    margin-top: -13pt;
+    font-size: 13pt;
+}
+
+div.DeskripsiKonser h4{
+    margin-top: -13pt;
+    font-size: 11pt;
+}
+
+footer{
+    text-align: center;
+    font-size: 15pt;
+}
+
+.GantiMode{
+    position: fixed;
+    bottom: 50px;   
+    right: 50pt;    
+}   
+
+.GambarIconGantiMode{
+    height: 60pt;
+    width: auto;
+    border-radius: 70pt;
+    background-color: #03DAC6;
+    padding: 10pt;
+}
+
+
+
+.InputBox{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 30px;
+}
+
+.DateBox{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 30px;
+}
+
+.InputBox input{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #BB86FC;
+    border-radius: 5px;
+    outline: none;
+    color: #121212;
+    font-size: 0.8em;
+    transition: 0.5s;
+}
+
+.DateBox input{
+    width: 95%;
+    padding: 9px;
+    border: 1px solid #121212;
+    background-color: #BB86FC;
+    border-radius: 5px;
+    outline: none;
+    color: #121212;
+    font-size: 0.8em;
+    transition: 0.5s;
+}
+
+.InputBox span{
+    position: absolute;
+    bottom: 19pt;
+    left: 15px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 0.8em;
+    color: black;
+    transition: 0.5s;
+}
+
+.InputBox input:placeholder-shown ~ span,
+.InputBox input:focus ~ span{
+    color: #121212;
+    transform: translateX(15px) translateY(-30px);
+    font-size: 0.65em;
+    padding: 10px;
+    background: #BB86FC;
+    border-left: 1px solid #121212;
+    border-right: 1px solid #121212;
+    letter-spacing: 0.2em;
+}
+
