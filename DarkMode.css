@@ -19,10 +19,10 @@
     color: #000000;
 }
 
-header {
+header#MainPage{
     width: 100%;
     height: 630pt;
-    background: linear-gradient(#1212120A,#121212FF 93%), url(Gambar/Main\ Page\ Header.png);
+    background: linear-gradient(#1212120F,#121212FF 90%,#121212EF 80%,#121212FF 100%), url(Gambar/Main\ Page\ Header.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -600pt;
@@ -59,6 +59,7 @@ header a.Pilihan:hover{
 }
 
 body{
+    margin: 0;
     background-color: #121212;
     color: #FFFFFF;
     font-family: "Montserrat", sans-serif;
@@ -185,6 +186,7 @@ div.Jeda10pt{
 
 .TitleTable{
     font-size: 30pt;
+    margin-top: 5pt;
 }
 
 .GambarKonser{
@@ -201,30 +203,30 @@ div.Jeda10pt{
     vertical-align: top;
 }
 
-div.DeskripsiKonser{
+div.DeskripsiKonserMainPage{
     margin-left: 10pt;
     margin-right: 10pt;
     text-wrap: balance;
     overflow: auto;
     table-layout: fixed;
-
+    
 }
-div.DeskripsiKonser h1{
+div.DeskripsiKonserMainPage h1{
     margin-top: -5pt;
     font-size: 30pt;
 }
 
-div.DeskripsiKonser h2{
+div.DeskripsiKonserMainPage h2{
     margin-top: -25pt;
     font-size: 15pt;
 }
 
-div.DeskripsiKonser h3{
+div.DeskripsiKonserMainPage h3{
     margin-top: -13pt;
     font-size: 13pt;
 }
 
-div.DeskripsiKonser h4{
+div.DeskripsiKonserMainPage h4{
     margin-top: -13pt;
     font-size: 11pt;
 }
@@ -247,8 +249,6 @@ footer{
     background-color: #03DAC6;
     padding: 10pt;
 }
-
-
 
 .InputBox{
     position: relative;
@@ -315,3 +315,96 @@ footer{
     letter-spacing: 0.2em;
 }
 
+header#DetailKonser{    
+    background: #03DAC65F;
+    padding-top: 8pt;
+    padding-bottom: 10pt;
+    text-align: right;
+}
+
+div.GambarPoster{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-image: linear-gradient(#1212125F,#1212125F),url(Gambar/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.GambarPoster h1{
+    padding-top:300pt ;
+    padding-bottom: 300pt;
+    font-size: 0pt;
+}
+
+table#DetailKonser{
+    padding-left: 100pt;
+    padding-right: 100pt;
+    padding-top: 60pt;
+}
+
+img#PosterKonser{
+    width: 300pt;
+    height: auto;
+    border-radius: 13pt;
+}
+
+th#DataDetailKonser{
+    padding-left: 30pt;
+    width: 400pt;
+    max-width: 400pt;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#PesanTiket{
+    text-align: center;
+    vertical-align: middle;
+    padding: 10pt 8pt;
+    border-radius: 17pt;
+}
+
+.Penyelenggara{
+    padding-top: 10pt;
+    text-align: center;
+    border-radius: 10pt;
+    width: 100pt;
+    height: 50pt;
+}
+
+.DalamPenyelenggara.primary{
+    padding-top: 10pt;
+    border-radius: 17pt;
+}
+
+img#Penyelenggara{
+    width: 100pt;
+    height: auto;
+    vertical-align: middle;
+}
+
+.DeskripsiKonser{
+    vertical-align: top;
+    padding-left: 30pt;
+}
+
+div.DeskripsiKonser{
+    vertical-align: middle;
+    padding-left: 30pt;
+    margin-left: 10pt;
+    font-size: 8pt;
+    text-align: justify;
+}
+
+th.PaketKonser{
+    padding-left: 10pt;
+    padding-right: 10pt;
+    font-size: 20pt;
+    margin-top: -10pt;
+}
+
+th.HargaKonser{
+    font-size: 10pt;
+}
