@@ -327,16 +327,36 @@ div.GambarPoster{
     height: 100%;
     text-align: center;
     vertical-align: middle;
-    background-image: linear-gradient(#1212125F,#1212125F),url(Gambar/Konser 1.png);
+    background-image: linear-gradient(#1212125F,#1212125F),url("Gambar/Konser 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div.GambarPoster h1{
-    padding-top:300pt ;
-    padding-bottom: 300pt;
+    padding-top:350pt ;
+    padding-bottom: 350pt;
     font-size: 0pt;
+}
+
+.BreadCrum{
+    padding-top: 10pt;
+    padding-left: 50pt;
+    margin-bottom: -50pt;
+    font-size: 10pt;
+    color: #FFFFFF;
+}
+
+.BreadCrum a{
+    font-size: 10pt;
+    color: #FFFFFF;
+}
+
+.BreadCrum a:hover{
+    padding: 4pt 5pt;
+    font-size: 10pt;
+    color: #121212;
+    background-color: #FFFFFF;
 }
 
 table#DetailKonser{
@@ -359,11 +379,29 @@ th#DataDetailKonser{
     vertical-align: middle;
 }
 
+#SeatingKonserKonserPage{
+    width: 300pt;
+    height: auto;
+    border-radius: 10pt;
+}
+
 #PesanTiket{
-    text-align: center;
-    vertical-align: middle;
-    padding: 10pt 8pt;
-    border-radius: 17pt;
+    background-color: #BB86FC;
+    color:#000000;
+    text-decoration: none;
+    border-radius: 13pt;
+    padding: 30pt 20pt;
+    display: inline-block; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: middle;
+    line-height: 1%;
+    font-weight: 900;
+}
+
+#PesanTiket:hover{
+    background-color: #3700B3;
+    color:#FFFFFF;
 }
 
 .Penyelenggara{
@@ -399,9 +437,10 @@ div.DeskripsiKonser{
 }
 
 th.PaketKonser{
+    width: 250pt;
     padding-left: 10pt;
     padding-right: 10pt;
-    font-size: 20pt;
+    font-size: 18pt;
     margin-top: -10pt;
 }
 
@@ -414,12 +453,14 @@ th.HargaKonser{
     margin-right: 20pt;
     text-wrap: balance;
     overflow: auto;
-    table-layout: fixed;   
+    table-layout: fixed; 
+    vertical-align: top;  
 }
 
+
 tr.DeskripsiKonserKonserPage td{
-    padding-left: 10pt;
-    padding-right: 10pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
 }
 
 .DeskripsiKonserKonserPage h1{
@@ -429,8 +470,9 @@ tr.DeskripsiKonserKonserPage td{
 }
 
 .DeskripsiKonserKonserPage h2{
-    margin-top: -25pt;
+    margin-top: 1pt;
     font-size: 15pt;
+    text-align: center;
 }
 
 .DeskripsiKonserKonserPage h3{
