@@ -19,11 +19,12 @@ function detectDarkMode() {
 
   window.addEventListener('load', detectDarkMode);
 
-  let docTitle = document.title;
-  window.addEventListener('blur',() => {
-      document.title = "Ayo pesan tiketmu disini";
-  })
-  window.addEventListener('focus',() => {
-      document.title = docTitle;
-  })
-    
+  
+let docTitle = document.title;
+window.addEventListener('blur',() => {
+    document.title = "Ayo pesan tiketmu disini";
+})
+window.addEventListener('focus',() => {
+    document.title = docTitle;
+})
+  
