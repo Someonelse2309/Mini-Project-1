@@ -21,7 +21,7 @@
 }
 header#DetailKonser{    
     background: #03DAC65F;
-    padding-top: 8pt;
+    padding-top: 10pt;
     text-align: right;
 }
 header h1{
@@ -35,10 +35,15 @@ header h1{
     padding-bottom:10pt;
     word-spacing: 15pt;
 }
+.search{
+    float: left;
+    width: 50pt;
+    margin-top: 0pt;
+}
 header a{
     word-spacing: 0pt;
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 header a.Pilihan:hover{
@@ -50,7 +55,9 @@ header a.Pilihan:hover{
     padding-bottom: 1pt;
     padding-right: 5pt;
     padding-left: 5pt;
-    border-radius: 4pt;
+    border-radius: 6pt;
+    border: 1px solid brown;
+    transition: 0.4s;
 }
 body{
     margin: 0;
@@ -69,21 +76,31 @@ body{
     background-size: cover;
     background-position: center;
     margin-top: 70pt;
-    margin-left: 40pt;
+    margin-left: 50pt;
     border-radius: 10pt;
     float: left; 
     position: absolute;
 }
 main.Detail{
-    margin-left: 650pt;
-    margin-top: 100pt;
+    margin-left: 750pt;
+    margin-top: 71pt;
+    margin-right: 200pt;
     font-size: 20pt;
+    border: 1pt solid ;
+    background-color: #BB86FC;
+    border-radius: 10pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    width: fit-content;
+    height: 279pt;
+
+
 }
 p.PilihanTanggal{
     margin-left: 100pt;
-    margin-top: 100pt;
+    margin-top: 60pt;
     font-size: 30pt;
-    margin-bottom: 20pt;
+    margin-bottom: 30pt;
 }
 #date{
     margin-top: 0pt;
@@ -97,24 +114,6 @@ p.JenisTiket{
     margin-bottom: 0pt;
     margin-top: 30pt;
 }
-/* .dropdown-tiket{
-    background-color: #FFFFFF;
-    color: #1d275f;
-    font-size: 30pt;
-    margin-left: 100pt;
-    font-family:'Times New Roman', Times, serif ;
-    margin-top: 10pt;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    background-color: #eae3e3;
-    min-width: 100pt;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-
-} */
-
 .radio-inputs {
     position: relative;
     display: flex;
@@ -154,4 +153,42 @@ p.JenisTiket{
   .radio-inputs .radio input:checked + .name {
     background-color: #BB86FC;
     font-weight: 600;
+} 
+
+.Pesan{
+    margin-left: 600pt;
+    margin-top: 50pt;
+    /* border: 1px solid; */
+    border-radius: 10pt;
+    margin-bottom: 40pt;
+}
+.Pesan button{
+    width: 300px;
+    height: 70px;
+    border-radius: 10pt;
+}
+.Pesan button:hover{
+    background-color: #BB86FC;
+    color: black;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    font-size: 15pt;
+    background-color: blue;
+    position: sticky;
+    height: 70pt;
+    padding-top: 5pt;
+}
+.datadiri{
+    background-color: #BB86FC;
+    width: fit-content;
+    margin-right: 540pt;
+    margin-top: 80pt;
+    border-radius: 10pt;
+    float: right;
+    border: 1px solid;
+    padding-left: 15pt;
+    padding-right: 20pt;
+    position: ;
 }
