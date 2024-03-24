@@ -5,8 +5,14 @@
 }
 
 .primaryVariant{
-    background-color : #3700B3;
+    text-align: center;
+    font-size: 15pt;
+    background-color: #3700B3;
+    height: 70pt;
+    padding-top: 1pt;
     color: #000000;
+    margin-top: 20pt;
+    
 }
 
 .secondary{
