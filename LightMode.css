@@ -484,11 +484,13 @@ tr.DeskripsiKonserKonserPage td{
     margin-top: 1pt;
     font-size: 15pt;
     text-align: center;
+    color: #BB86FC;
 }
 
 .DeskripsiKonserKonserPage h3{
-    margin-top: -13pt;
+    margin-top: 1pt;
     font-size: 13pt;
+    text-align: center;
 }
 
 .DeskripsiKonserKonserPage h4{
