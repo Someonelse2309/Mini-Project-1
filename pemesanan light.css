@@ -175,11 +175,23 @@ footer{
     text-align: center;
     font-size: 15pt;
     background-color: #3700B3;
-    position: sticky;
     height: 70pt;
     padding-top: 5pt;
     color: #000000;
 }
+.GantiMode{
+    position: fixed;
+    bottom: 50px;   
+    right: 50pt;    
+}   
+.GambarIconGantiMode{
+    height: 60pt;
+    width: auto;
+    border-radius: 70pt;
+    background-color: #03DAC6;
+    padding: 10pt;
+}
+
 .datadiri{
     background-color: #BB86FC;
     width: fit-content;
@@ -190,4 +202,6 @@ footer{
     border: 1px solid;
     padding-left: 15pt;
     padding-right: 20pt;
+    padding-bottom: 20pt;
+    margin-bottom: 20pt;
 }
