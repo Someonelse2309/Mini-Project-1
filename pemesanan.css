@@ -206,3 +206,7 @@ footer{
     padding-bottom: 20pt;
     margin-bottom: 20pt;
 }
+
+main img{
+    border: white solid 3px;
+}

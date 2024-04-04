@@ -202,6 +202,7 @@ div.Jeda10pt{
     margin-left: 10pt;
     margin-right: 10pt;
     border-radius: 10pt;
+    border: white solid 2px;
 }
 
 .CaptionKonser{
@@ -494,4 +495,12 @@ tr.DeskripsiKonserKonserPage td{
 .DeskripsiKonserKonserPage h4{
     margin-top: -13pt;
     font-size: 11pt;
+}
+
+#PosterKonser{
+    border: white solid 2px;
+}
+
+#SeatingKonserKonserPage{
+    border: white solid 2px;;
 }
